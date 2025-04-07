@@ -1,0 +1,71 @@
+.quoteBoxClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:fit-content;
+    max-width: 30vw;
+    min-width: 15vw;
+    padding: 20px;
+    color: rgb(44, 62, 80);
+    background-color: white;
+    border-radius: 6px;
+}
+
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(44, 62, 80);
+}
+
+.text{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size:50px;
+}
+.author{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size:25px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.link {
+    padding: 10px;
+}
+
+.btn{
+    padding: 10px;
+}
+
+
+.textContainer .text {
+    font-size: 20px;
+  }
+
+.textContainer {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Áp dụng transition cho opacity */
+  }
+
+  .textContainer.show {
+    opacity: 1;  /* Khi thêm class show, opacity sẽ là 1 */
+  }
