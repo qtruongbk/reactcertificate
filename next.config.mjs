@@ -2,6 +2,8 @@
 const nextConfig = {
     output: 'export',
     basePath: '/reactcertificate',
+
+  assetPrefix: '/reactcertificate/',
     trailingSlash: true,
 };
 

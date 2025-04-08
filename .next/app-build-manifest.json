@@ -1,35 +1,43 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/webpack-a47cdf9779d36794.js",
-      "static/chunks/4bd1b696-6e1945ccadf1e503.js",
-      "static/chunks/684-9b7e902f4becd0af.js",
+      "static/chunks/webpack-5a6755246af34afc.js",
+      "static/chunks/4bd1b696-4f94dec9df1fe5c4.js",
+      "static/chunks/684-1330621b6b87fdbe.js",
       "static/chunks/main-app-1cefe9182494704e.js",
       "static/chunks/app/_not-found/page-8b907115a5f995a7.js"
     ],
     "/layout": [
-      "static/chunks/webpack-a47cdf9779d36794.js",
-      "static/chunks/4bd1b696-6e1945ccadf1e503.js",
-      "static/chunks/684-9b7e902f4becd0af.js",
+      "static/chunks/webpack-5a6755246af34afc.js",
+      "static/chunks/4bd1b696-4f94dec9df1fe5c4.js",
+      "static/chunks/684-1330621b6b87fdbe.js",
       "static/chunks/main-app-1cefe9182494704e.js",
       "static/css/dcd428868b772839.css",
       "static/chunks/app/layout-101ceb5986d4bb87.js"
     ],
-    "/randomquotes/page": [
-      "static/chunks/webpack-a47cdf9779d36794.js",
-      "static/chunks/4bd1b696-6e1945ccadf1e503.js",
-      "static/chunks/684-9b7e902f4becd0af.js",
+    "/markdownpreview/page": [
+      "static/chunks/webpack-5a6755246af34afc.js",
+      "static/chunks/4bd1b696-4f94dec9df1fe5c4.js",
+      "static/chunks/684-1330621b6b87fdbe.js",
       "static/chunks/main-app-1cefe9182494704e.js",
-      "static/css/083a73cc4a0a4570.css",
-      "static/chunks/app/randomquotes/page-fc3703ec108fde10.js"
+      "static/css/ca7be4686bf1eb09.css",
+      "static/chunks/app/markdownpreview/page-323a4012ced4f46a.js"
     ],
     "/page": [
-      "static/chunks/webpack-a47cdf9779d36794.js",
-      "static/chunks/4bd1b696-6e1945ccadf1e503.js",
-      "static/chunks/684-9b7e902f4becd0af.js",
+      "static/chunks/webpack-5a6755246af34afc.js",
+      "static/chunks/4bd1b696-4f94dec9df1fe5c4.js",
+      "static/chunks/684-1330621b6b87fdbe.js",
       "static/chunks/main-app-1cefe9182494704e.js",
       "static/css/05d86ef414358385.css",
       "static/chunks/app/page-34e9350414c7a940.js"
+    ],
+    "/randomquotes/page": [
+      "static/chunks/webpack-5a6755246af34afc.js",
+      "static/chunks/4bd1b696-4f94dec9df1fe5c4.js",
+      "static/chunks/684-1330621b6b87fdbe.js",
+      "static/chunks/main-app-1cefe9182494704e.js",
+      "static/css/083a73cc4a0a4570.css",
+      "static/chunks/app/randomquotes/page-f18300bb6aca04ef.js"
     ]
   }
 }

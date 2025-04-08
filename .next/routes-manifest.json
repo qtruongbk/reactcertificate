@@ -55,6 +55,12 @@
       "namedRegex": "^/favicon\\.ico(?:/)?$"
     },
     {
+      "page": "/markdownpreview",
+      "regex": "^/markdownpreview(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/markdownpreview(?:/)?$"
+    },
+    {
       "page": "/randomquotes",
       "regex": "^/randomquotes(?:/)?$",
       "routeKeys": {},
@@ -78,5 +84,15 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": []
+  "rewrites": {
+    "beforeFiles": [
+      {
+        "source": "/reactcertificate//_next/:path+",
+        "destination": "/reactcertificate/_next/:path+",
+        "regex": "^/reactcertificate//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
+      }
+    ],
+    "afterFiles": [],
+    "fallback": []
+  }
 }
